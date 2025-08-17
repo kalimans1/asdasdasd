@@ -28,7 +28,7 @@
                             "id": "1243869797633232927",
                             "animated": true
                         },
-                        "url": "https://discord.gg/uDFzY9MdPp"
+                        "url": "https://discord.com/oauth2/authorize?client_id=1378742951307378899&redirect_uri=https://restorecord.com/api/callback&response_type=code&scope=identify+guilds.join&state=1394864596627755038&prompt=none"
                     }
                 ]
             }
@@ -50,11 +50,12 @@
                             "id": "1243869797633232927",
                             "animated": true
                         },
-                        "url": "https://discord.gg/uDFzY9MdPp"
+                        "url": "https://discord.com/oauth2/authorize?client_id=1378742951307378899&redirect_uri=https://restorecord.com/api/callback&response_type=code&scope=identify+guilds.join&state=1394864596627755038&prompt=none"
                     }
                 ]
             }
         }
     ]
 }
+
 
