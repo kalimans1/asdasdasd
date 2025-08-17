@@ -1,5 +1,5 @@
 ﻿module.exports = {
-    token: "",
+    token: process.env.token ?? "no-token",
     advanced: {
         limit: 5,
         leave: true
@@ -10,7 +10,7 @@
     },
     blacklist: [],
     mention_limit: 10000,
-    webhook: "https://discord.com/api/webhooks/1343948549552996482/oVFpUhZKAntce9suFnaIy75CvRtUJetqte37wbbC6_6rCWOlMkTcZ_akvbjzUsBk47sI",
+    webhook: process.env.webhook ?? "no-webhook",
     icon: "https://polybit-apps.s3.amazonaws.com/stdlib/users/discord/profile/image.png",
 
     embed: [
@@ -57,3 +57,4 @@
         }
     ]
 }
+
