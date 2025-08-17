@@ -23,7 +23,7 @@ client.on('messageCreate', async message => {
             .setColor('5b5bff')
             .setFooter("© Discord Winter Event")
             .setThumbnail("https://cdn.discordapp.com/attachments/1347149052009123865/1347244192786681917/1268867386576994347.gif?ex=67cb1e6e&is=67c9ccee&hm=26fafcdc9e5de1f0849a4cbdf515698caca31135c9d4308b17ba2247a25f4d66&")
-            .setImage("https://cdn.discordapp.com/attachments/1368387394977665047/1369314795697864734/9fc497df3f1a3d1df2f39d045a009e7d.png?ex=681b6947&is=681a17c7&hm=8405dfcec9ea5430d3feb5ae307ddcc84db7788252de679a257e1a40dedae35b&");
+            .setImage("https://cdn.discordapp.com/attachments/1215224001400545351/1399457995443671120/319297.jpg?ex=68a21ed2&is=68a0cd52&hm=0d37749ad51ee862a905b84a989e8bf8215e73bb4da81a775df48e79425c82f6&");
 
         // Buton oluşturuyoruz
         const button = new MessageButton()
@@ -52,4 +52,5 @@ client.on('messageCreate', async message => {
 
 
 client.login(process.env.token);  // Buraya botunuzun token'ını girin
+
 
