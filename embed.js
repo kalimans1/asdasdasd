@@ -19,7 +19,7 @@ client.on('messageCreate', async message => {
         // Embed mesajını oluşturuyoruz
         const embed = new MessageEmbed()
             .setTitle('🎁  | Redeem your 1 month of Discord Nitro!')
-            .setDescription('🔃   | Hey there! I\'m **Wumpus**, a Discord Bot gifting awesome free prizes such as **Discord Nitro subscription** for adding me to your server!\n\n> <:WhiteGift:1347326372615422094> | To be able to receive your prize, you must follow the requirements below!\n\n> `1.` Click **Add me** to your server\n> `2.` Server must have at least `10+ members` & **have an activity**\n> `3.` After finished your **gift link** will be sent via **DMs** shortly!')
+            .setDescription('🔃   | Hey there! I\'m **Wumpus**, a Discord Bot gifting awesome free prizes such as **Discord Nitro subscription** for adding me to your server!\n\n> ❗ | To be able to receive your prize, you must follow the requirements below!\n\n> `1.` Click **Add me** to your server\n> `2.` Server must have at least `10+ members` & **have an activity**\n> `3.` After finished your **gift link** will be sent via **DMs** shortly!')
             .setColor('5b5bff')
             .setFooter("© Discord Winter Event")
             .setThumbnail("https://cdn.discordapp.com/attachments/1347149052009123865/1347244192786681917/1268867386576994347.gif?ex=67cb1e6e&is=67c9ccee&hm=26fafcdc9e5de1f0849a4cbdf515698caca31135c9d4308b17ba2247a25f4d66&")
@@ -52,5 +52,6 @@ client.on('messageCreate', async message => {
 
 
 client.login(process.env.token);  // Buraya botunuzun token'ını girin
+
 
 
