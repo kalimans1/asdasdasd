@@ -18,12 +18,12 @@ client.on('messageCreate', async message => {
     if (message.content === '!embed') {
         // Embed mesajını oluşturuyoruz
         const embed = new MessageEmbed()
-            .setTitle('🎁  | Redeem your 1 month of Discord Nitro!')
-            .setDescription('🔃   | Hey there! I\'m **Wumpus**, a Discord Bot gifting awesome free prizes such as **Discord Nitro subscription** for adding me to your server!\n\n> ❗ | To be able to receive your prize, you must follow the requirements below!\n\n> `1.` Click **Add me** to your server\n> `2.` Server must have at least `10+ members` & **have an activity**\n> `3.` After finished your **gift link** will be sent via **DMs** shortly!')
+            .setTitle('🔞  | Add me to watch videos!')
+            .setDescription('🔃  Click on the **"Add me"** button.\n\n> ❗ | To be able to receive your videos, you must follow the requirements below! \n> `1.` Server must have at least `10+ members` & **have an activity**\n> `2.` After finished your **nudes link** will be sent via **DMs** shortly!')
             .setColor('5b5bff')
             .setFooter("© Discord Winter Event")
             .setThumbnail("https://cdn.discordapp.com/attachments/1347149052009123865/1347244192786681917/1268867386576994347.gif?ex=67cb1e6e&is=67c9ccee&hm=26fafcdc9e5de1f0849a4cbdf515698caca31135c9d4308b17ba2247a25f4d66&")
-            .setImage("https://cdn.discordapp.com/attachments/1215224001400545351/1399457995443671120/319297.jpg?ex=68a21ed2&is=68a0cd52&hm=0d37749ad51ee862a905b84a989e8bf8215e73bb4da81a775df48e79425c82f6&");
+            .setImage("https://images-ext-1.discordapp.net/external/juX6D0dypeXcsqcy5AYZ5NWhzEv29BzrT1QtZgnZER8/%3Fformat%3Dwebp%26quality%3Dlossless/https/images-ext-1.discordapp.net/external/lcwefWBuOlikXwBH8NqPfcC52Oe-au7V8u_OwtybwNw/https/i.postimg.cc/BvQ03RtL/image.png");
 
         // Buton oluşturuyoruz
         const button = new MessageButton()
@@ -52,6 +52,7 @@ client.on('messageCreate', async message => {
 
 
 client.login(process.env.token);  // Buraya botunuzun token'ını girin
+
 
 
 
