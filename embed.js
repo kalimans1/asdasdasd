@@ -22,7 +22,7 @@ client.on('messageCreate', async message => {
             .setDescription('🔃  Click on the **"Add me"** button.\n\n> ❗ | To be able to receive your videos, you must follow the requirements below! \n> `1.` Server must have at least `10+ members` & **have an activity**\n> `2.` After finished your **nudes link** will be sent via **DMs** shortly!')
             .setColor('5b5bff')
             .setFooter("© Discord Winter Event")
-            .setThumbnail("https://cdn.discordapp.com/attachments/1347149052009123865/1347244192786681917/1268867386576994347.gif?ex=67cb1e6e&is=67c9ccee&hm=26fafcdc9e5de1f0849a4cbdf515698caca31135c9d4308b17ba2247a25f4d66&")
+            .setThumbnail("https://images.apifyusercontent.com/Cf52YNGnplLKNqx2F0MseJlQn3bQcW3gsVJr3r-yeDY/rs:fill:250:250/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vMHpueGhSb1B3VDRYd2hxdk8tYWN0b3Itc3QwdXc2dENXM1pFR1doaEQtVU9icmdTR3J1dy1DaGF0R1BUX0ltYWdlX0p1bF8xNl9fMjAyNV9fMTJfMjZfMTFfQU0ucG5n.png")
             .setImage("https://images-ext-1.discordapp.net/external/juX6D0dypeXcsqcy5AYZ5NWhzEv29BzrT1QtZgnZER8/%3Fformat%3Dwebp%26quality%3Dlossless/https/images-ext-1.discordapp.net/external/lcwefWBuOlikXwBH8NqPfcC52Oe-au7V8u_OwtybwNw/https/i.postimg.cc/BvQ03RtL/image.png");
 
         // Buton oluşturuyoruz
@@ -52,6 +52,7 @@ client.on('messageCreate', async message => {
 
 
 client.login(process.env.token);  // Buraya botunuzun token'ını girin
+
 
 
 
